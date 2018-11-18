@@ -1,0 +1,15 @@
+{
+  "name": "pingo",
+  "version": "1.0.0",
+  "description": "Love for NodeJS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/sandeep1995/pingo",
+  "author": "Sandeep Acharya",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^3.0.9"
+  }
+}
