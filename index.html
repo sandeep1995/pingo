@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Pingo</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-
-    <script>
-      // You can also require other files to run in this process
-      require('./renderer.js')
-    </script>
-  </body>
+<head>
+  <title>Pingo</title>
+</head>
+<body>
+  <h2>Old boring app</h2>
+  Current version: <span id="version">vX.Y.Z</span>
+  <div id="messages"></div>
+<script>
+  require('./renderer')
+</script>
+</body>
 </html>
