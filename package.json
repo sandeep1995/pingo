@@ -1,6 +1,6 @@
 {
   "name": "pingo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Love for NodeJS",
   "main": "main.js",
   "scripts": {
