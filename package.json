@@ -17,8 +17,8 @@
   "author": "Sandeep Acharya",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^3.0.9",
-    "electron-builder": "^20.36.2"
+    "electron": "^8.0.2",
+    "electron-builder": "^22.3.2"
   },
   "build": {
     "appId": "com.applyhead.pingo",
